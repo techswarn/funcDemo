@@ -3,9 +3,8 @@ function printDetails(){
 }
 
 async function main(args) {
-    const signature = args.__ow_headers['x-signature-ed25519'];
-    const timestamp = args.__ow_headers['x-signature-timestamp'];
-    printDetails()
+    console.log(args.__ow_headers)
+    printDetails(...args)
     console.log(args);
     console.log(completed)
 
