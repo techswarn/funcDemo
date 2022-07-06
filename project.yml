@@ -1,0 +1,31 @@
+targetNamespace: ""
+parameters: {}
+packages:
+  - name: sample
+    environment: {}
+    parameters: {}
+    annotations: {}
+    actions:
+      - name: hello
+        binary: false
+        main: ""
+        runtime: "nodejs:default"
+        web: raw
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
+  - name: new
+    environment: {}
+    parameters: {}
+    annotations: {}
+    actions:
+      - name: fundemo
+        binary: false
+        main: ""
+        runtime: "nodejs:default"
+        web: raw
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
